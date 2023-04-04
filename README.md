@@ -11,25 +11,23 @@ repozitorij laboratorijskih vježbi iz vještine Tehnologije podatkovnog inženj
 
 Pokrenuti kafka servise i topic:
 
-	U /kafka pokrenuti naredbu
+U /kafka pokrenuti naredbu
 
     ```
     docker-compose up -d
-	```
-
-    ```
+    
     docker exec kafka-kafka1-1 kafka-topics --bootstrap-server kafka-kafka1-1:9092 --create --partitions 3 --topic ethereum
     ```
 
 Stvoriti docker slike:
 
-	U /producer pokrenuti naredbu
+U /producer pokrenuti naredbu
 
     ```
     docker build -t python-kafka-producer .
-	```
+    ```
 
-    U /consumer pokrenuti naredbu
+U /consumer pokrenuti naredbu
 
     ```
     docker build -t python-kafka-consumer .
@@ -37,11 +35,9 @@ Stvoriti docker slike:
 
 Zatim pokrenuti preostale producer i composer kontejnere:
 
-	```
-    docker run --name python-producer-container --network kafka_kafka_network -dit python-kafka-producer
-	```
-
     ```
+    docker run --name python-producer-container --network kafka_kafka_network -dit python-kafka-producer
+
     docker run --name python-consumer-container --network kafka_kafka_network -dit python-kafka-consumer
     ```
 
