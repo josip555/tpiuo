@@ -1,0 +1,12 @@
+Za pokretanje spark-submit naredbe za spremanje kafka podataka u CSV datoteku:
+	
+- varijablu okruženja PYSPARK_DRIVER_PYTHON postaviti na: python
+
+- spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 kafkaToCSV.py
+
+Za pokretanje PySpark.ipynb jupyter notebook-a postaviti varijable okruženja:
+
+- PYSPARK_DRIVER_PYTHON=jupyter
+- PYSPARK_DRIVER_PYTHON_OPTS=notebook
+
+- pokrenuti narebom: jupyter notebook

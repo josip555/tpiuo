@@ -1,0 +1,4 @@
+v1
+{"path":"file:///C:/Users/Josip/Desktop/TPIUO/lab3/output/part-00000-ce8c79ac-a18a-401e-9550-9802f17f202d-c000.csv","size":27389,"isDir":false,"modificationTime":1683127425267,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///C:/Users/Josip/Desktop/TPIUO/lab3/output/part-00001-a459d5ca-4571-4055-b1dc-890ed8f84e21-c000.csv","size":26573,"isDir":false,"modificationTime":1683127425283,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///C:/Users/Josip/Desktop/TPIUO/lab3/output/part-00002-54f796b4-dc7f-4b96-b5fc-f155a870880b-c000.csv","size":26988,"isDir":false,"modificationTime":1683127425314,"blockReplication":1,"blockSize":33554432,"action":"add"}
